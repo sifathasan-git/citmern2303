@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+}
+.slide{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    transform: translateX(100%);
+}
+.active{
+    transform: translateX(0%);
+}
+.one{
+   background: url(images/aston-martin.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.two{
+   background: url(images/audi-rs-e-tron-gt.jpg) no-repeat center / cover; 
+   
+}
+.three{
+   background: url(images/maserati-mc20.jpg) no-repeat center / cover; 
+   
+}
+.four{
+   background: url(images/nio-et5.jpg) no-repeat center / cover; 
+ 
+}
+.prev{
+    position: absolute;
+    top:50%;
+    left:30px;
+    width:40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+}
+.next{
+    position: absolute;
+    top:50%;
+    right:30px;
+    width:40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+}

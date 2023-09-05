@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.number{
+    width: 33.33%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+.container .number:nth-child(1){
+    background: rgb(16, 31, 46);
+}
+.container .number:nth-child(2){
+    background: rgb(18, 34, 51);
+}
+.container .number:nth-child(3){
+    background: rgb(21, 38, 56);
+}
+.container .number p{
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
+}
